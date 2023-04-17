@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0 auto;
+            padding: 0;
+        }
+        .menu{
+            background-color: rgb(145, 49, 117);
+            width: 100%;
+            height: 40px;
+        }
+        .menu ul li{
+            background-color: rgb(145, 49, 117);
+            color: white;
+            float: left;
+            width: 100px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            position: relative;
+        }
+        .menu ul li:hover{
+            background-color: violet;
+        }
+        .menu ul{
+            padding: 0;
+        }
+        .menu ul ul{
+            display: none;
+        }
+        .menu ul li:hover > ul{
+            display: block;
+        }
+        .menu ul ul ul{
+            margin-left: 102px;
+            position: absolute;
+            top: 0px;
+        }
+        .menu ul ul li:hover{
+            background-color: rgb(205, 88, 136);
+        }
+        .menu ul ul ul li:hover{
+            background-color: rgb(145, 49, 117);
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="menu">
+        <ul>
+            <li>Norte</li>
+                <ul>
+                    <li>Amazonas</li>
+                    <li>Pará</li>
+                    <li>Acre</li>
+                    <li>Rondônia</li>
+                </ul>
+            <li>Nordeste
+                <ul>
+                    <li>Salvador</li>
+                    <li>Fortaleza</li>
+                    <li>Recife</li>
+                    <li>São Luís</li>
+                </ul>
+            <li>Centro Oeste</li>
+                <ul>
+                    <li>Brasília</li>
+                    <li>Goiânia</li>
+                    <li>Campo Grande</li>
+                    <li>Cuiabá</li>
+                </ul>
+            <li>Sudeste</li>
+                <ul>
+                    <li>São Paulo</li>
+                    <li>Rio de Janeiro</li>
+                    <li>Belo Horizonte</li>
+                    <li>Guarulhos</li>
+                </ul>
+            <li>Sul
+                <ul>
+                    <li>Rio G. Sul</li>
+                    <li>Paraná</li>
+                    <li>Santa Catarina
+                        <ul>
+                            <li>Capital</li>
+                            <li>Interior</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+</body>
+</html>
