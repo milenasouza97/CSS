@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinando Seletores - CSS</title>
+    <style>
+        div p{
+            color: red;
+        }
+        div > p{
+            color: green;
+        }
+        div ~ h2{
+            color: purple;
+            text-align: center;
+        }
+        #identif p{
+            color: blue;
+        }
+        .classe p{
+            color: rgb(134, 163, 184);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Seletores</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectectur adipisicing elit. Nemo qui facere, perferendis eum dicta labore deserunt cupiditate explicabo repudiandae, repellendus sit non. Laborum rerum laboriosam dolore, enim atque odit iure?
+        </p>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectectur adipisicing elit. Nemo qui facere, perferendis eum dicta labore deserunt cupiditate explicabo repudiandae, repellendus sit non. Laborum rerum laboriosam dolore, enim atque odit iure?</p>
+        </article>
+    </div>
+    <h2>Exemplo</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectectur adipisicing elit. Nemo qui facere, perferendis eum dicta labore deserunt cupiditate explicabo repudiandae, repellendus sit non. Laborum rerum laboriosam dolore, enim atque odit iure?
+    </p>
+    <h2>Exemplo 2</h2>
+    <div id="identif">
+        <p>
+            Lorem ipsum dolor sit amet consectectur adipisicing elit. Nemo qui facere, perferendis eum dicta labore deserunt cupiditate explicabo repudiandae, repellendus sit non. Laborum rerum laboriosam dolore, enim atque odit iure?
+        </p>
+    </div>
+    <div class="classe">
+        <p> 
+            Lorem ipsum dolor sit amet consectectur adipisicing elit. Nemo qui facere, perferendis eum dicta labore deserunt cupiditate explicabo repudiandae, repellendus sit non. Laborum rerum laboriosam dolore, enim atque odit iure? Placeat mollitia reprehenderit laboriosam alias repellendus?
+        </p>
+    </div>
+</body>
+</html>
