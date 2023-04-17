@@ -64,6 +64,42 @@
             height: 50px;
             text-align: center;
         }
+        .menu ul li{
+            background-color:aqua;
+            width: 150px;
+            height: 40px;
+            float: left
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            position: relative;
+        }
+        .menu ul li:hover{
+            background-color: #86A3B8;
+        }
+        .menu ul{
+            padding: 0;
+            max-width: 800px;
+        }
+        .menu ul ul{
+            display: none;
+        }
+        .menu ul li:hover > ul{
+            display: block;
+        }
+        .menu ul ul ul{
+            margin-left: 131px;
+            position: absolute;
+            top: 0px;
+        }
+        .menu ul ul li:hover{
+            background-color: #408E91;
+        }
+        .menu ul ul ul li:hover{
+            background-color: #19A7CE;
+        }
+        .clear{clear:both;}
+
     </style>
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
 </head>
@@ -86,6 +122,29 @@
                     <spam class="menu"><a href="#">BRINQUEDOS</a></spam>
                     <spam class="menu"><a href="#">ROUPAS</a></spam>
                     <spam class="menu"><a href="#">BANHO E TOSA</a></spam>
+                </nav>
+            </div>
+            <div class="menu_down">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">RAÇÃO</a>
+                            <ul>
+                                <li><a href="#">CACHORRO</a></li>
+                                <li><a href="#">GATO</a></li>
+                                <li><a href="#">PEIXE</a></li>
+                                <li><a href="#">OUTROS</a>
+                                    <ul>
+                                        <li><a href="#">AVES</a></li>
+                                        <li><a href="#">RÉPTEIS</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">BRINQUEDOS</a></li>
+                        <li><a href="#">ROUPAS</a></li>
+                        <li><a href="#">BANHO E TOSA</a></li>
+                    </ul>
                 </nav>
             </div>
     </header>
