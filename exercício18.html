@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 18 - Colaboradores</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .titulo{
+            background-color: rebeccapurple;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 30px;
+            color: white;
+        }
+        .conteudo{
+            background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .item{
+            width: 20%;
+            height: 200px;
+            margin: 10px;
+            background: rgb(244, 241, 241);
+            flex-grow: 0;
+            flex-shrink: 1;
+            border-radius: 10px;
+            background-size: 90%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: white;
+        }
+        .item:hover{
+            width: 30%;
+            height: 300px;
+        }
+        .itemA{
+            background-image: url(img/annelinda.png);
+        }
+        .itemB{
+            background-image: url(img/dualipa.png);
+        }
+        .itemC{
+            background-image: url(img/giselle.png);
+        }
+        .itemD{
+            background-image: url(img/jennieminhakim.png);
+        }
+        .itemE{
+            background-image: url(img/daisyjones.png);
+        }
+        .itemF{
+            background-image: url(img/michelleyeoh.png);
+        }
+        .itemG{
+            background-image: url(img/lizzo.png);
+        }
+        .itemH{
+            background-image: url(img/barbie.png);
+        }
+        .itemI{
+            background-image: url(img/caradelevigne.png);
+        }
+        .itemJ{
+            background-image: url(img/gigi.png);
+        }
+        .itemK{
+            background-image: url(img/ritaora.png);
+        }
+        .itemL{
+            background-image: url(img/amanda.png);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Melhores roupas do Met Gala 2023:</h1>
+    </div>
+    <div class="conteudo">
+        <div class="item itemA"></div>
+        <div class="item itemB"></div>
+        <div class="item itemC"></div>
+        <div class="item itemD"></div>
+        <div class="item itemE"></div>
+        <div class="item itemF"></div>
+        <div class="item itemG"></div>
+        <div class="item itemH"></div>
+        <div class="item itemI"></div>
+        <div class="item itemJ"></div>
+        <div class="item itemK"></div>
+        <div class="item itemL"></div>
+    </div>
+</body>
+</html>
