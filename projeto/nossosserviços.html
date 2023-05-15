@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finalize sua compra!</title>
-    <link rel="shortcut icon" href="colocarlogo" type="LOGO">
+    <title>Nossos Serviços</title>
     <style>
         *{
             font-family: Copperplate Gothic Light;
@@ -71,6 +70,15 @@
         .cabe ul li:hover{
             color: #bf852e;
         }
+        .box1, .box2, .box3{
+            position: relative;
+            height:100%;
+            width: 100%;
+            opacity: 0.9;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
         p{
             font-family: Arial, Helvetica, sans-serif;
         }
@@ -87,16 +95,8 @@
             font-size: 20px;
             letter-spacing: 5px;
         }
-        .conteudo{
-            background-color:#2b3a55;
-            color:#fefcf3;
-            text-align: justify;
-            padding: 50px 100px 40px 100px;
-            background-image: url(imagens/f7.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-        }
+       
+        
 
         h2{
             text-transform: uppercase;
@@ -133,70 +133,58 @@
             padding: 5px;
         }
 
-
+        .box1{
+            background-image: url(img/banner\ real\ -\ adaptado.png);
+        }
+        .cont-img{
+            position: absolute;
+            top: 45%;
+            width: 100%;
+            text-align: center;}
+        .conteudo{
+            background-color:#2b3a55;
+            color:#000000;
+            text-align: justify;
+            padding: 50px 100px 40px 100px;
+            background-image: url();
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
     </style>
 </head>
 <body>
-    <h1>Efetue o Pagamento:</h1>
-    <main>
-        <fieldset>
-        <legend>Produto</legend>
-        <label>Modelo do Produto</label>
-        <select name="Produtos" required>
-        <option value="">Escolha um produto</option>
-        <optgroup label="Pelúcia">
-        <option value="Urso Gigante">Urso Gigante</option>
-        <option value="Urso de Pelúcia 20cm">Urso de Pelúcia 20cm</option>
-        <option value="Coração Lovers">Coração Lovers</option>
-        </optgroup>
-        <optgroup label="Quadros">
-        <option value="Fat Bob">Quadro com foto simples</option>
-        <option value="Fat Boy">Quadro decorativo (escolha do cliente)</option>
-        </optgroup>
-        <optgroup label="Canecas">
-        <option value="Monte sua Caneca">Monte sua caneca</option>
-        </optgroup>
-        <optgroup label="Chocolates">
-            <option value="Fat Bob">Quadro com foto simples</option>
-            <option value="Fat Boy">Quadro decorativo (escolha
-                do cliente)</option>
-            </optgroup>
-            <optgroup label="Cestas">
-                <option value="Fat Bob">Cesta no formato coração</option>
-                <option value="Fat Boy">Cesta amor, amores</option>
-                <option value="Fat Bob">Cesta recheada</option>
-                <option value="Fat Boy">Cesta arco íris</option>
-        </select>
-        </fieldset>
-        <br>
-        <button type="submit">Enviar</button>
-        </form>
-        </section>
-        </main>
-        <main>
-            <fieldset>
-            <legend>Pagamento</legend>
-            <label>Modelo de Pagamento</label>
-            <select name="Modelo" required>
-            <option value="">Escolha um modelo</option>
-            <optgroup label="Cartão">
-            <option value="Urso Gigante">Crédito</option>
-            <option value="Urso de Pelúcia 20cm">Débito</option>
-            </optgroup>
-            <optgroup label="Boleto">
-            <option value="Fat Bob">Emissão de Boletos</option>
-            </optgroup>
-            </select>
-            </fieldset>
-            <br>
-            <button type="submit">Enviar</button>
-            </form>
-            </section>
-        <hr>
-        <footer>
-        <p>Copyright 2023</p>
-        </footer>
-        <div align="center"
-        td><a href="SITEELAPOETA.HTML"> VOLTAR </a></td></div>
+    <div class="cabe">
+        <div class="logo">
+            <img src="img/LogoRed.png">
+        </div>
+        <div>
+            <ul>
+                <li> HOME</li>
+                <li> SERVIÇOS</li>
+                <li> PRODUTOS</li>
+                <li> SOBRE</li>
+            </ul>
+        </div>
+        <input class="pesq" type="text" name="pesq" placeholder="Pesquisar produto...">
+    </div>
+    <div class="box1">
+        <div class="cont-img">
+          <div class="conteudo">
+                <h2> NOSSOS SERVIÇOS </h2>
+                <p> Após a solicitação do cliente é realizado uma consulta virtual em função de seus interesses. Depois de realizar a consulta, o cliente terá a possibilidade de até três alterações em que este pode escolher o modelo de impressão da poesia e, se ele desejar, uma composição com elementos da loja virtual (chocolates, adereços de pelúcia, canecas de porcelana, etc).
+                    <b>3 Reuniões entre a equipe</b> (apresentação: compreensão do trabalho e orçamento / poesia: formulação das ideias que serão escritas / avaliação final do cliente e ajustes dos detalhes finais com a parte de venda da equipe).
+                <b>3 Reuniões entre a equipe</b> (projeção: ajuste das ideias debatidas com o cliente / promoção: organização do que será publicado nas redes sociais / finalização: preparo para a proposta e desfecho do produto oferecido) </p></div>
+    </div>
+    </div>
+    <div class="box1">
+        <div class="cont-img">
+        </div>
+    </div>
 </body>
+<footer>
+    <div class="roda">
+        <br> <br> <br>
+        <div class="down_up"> ELA POETA </div>
+        <div class="down_meio"> Nos siga nas nossas redes sociais! <br> #FICALIGADO</div>
 </html>
